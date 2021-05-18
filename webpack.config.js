@@ -83,6 +83,16 @@ module.exports = (env) => {
         template: './src/templates/index.html',
         title: 'Scalable Sass Architecture'
       }),
+      new HtmlWebpackPlugin({
+        filename: 'setting.html',
+        template: './src/templates/setting.html',
+        title: 'Scalable Sass Architecture'
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'login.html',
+        template: './src/templates/login.html',
+        title: 'Scalable Sass Architecture'
+      }),
       new CopyWebpackPlugin([
         {
           from: 'src/templates',

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" /> -->
+    <script src="https://kit.fontawesome.com/24dacea17b.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Nav BAr -->
+    <div class="navbar">
+      <ul>
+        <div>
+          <li class="li-first">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 18.1065C0 27.9411 8.05887 36 18.1065 36C27.9411 36 36 27.9411 36 18.1065C36 8.05887 27.9411 0 18.1065 0C8.05887 0 0 8.05887 0 18.1065ZM33.7263 18.1065C33.7263 26.6854 26.6854 33.7263 18.1065 33.7263C9.34353 33.7263 2.27368 26.714 2.27368 18.1065C2.27368 9.3146 9.3146 2.27368 18.1065 2.27368C26.714 2.27368 33.7263 9.34353 33.7263 18.1065Z"
+                fill="white"
+              />
+              <ellipse cx="18" cy="12.375" rx="13.5" ry="7.875" fill="white" />
+              <ellipse cx="18" cy="25.875" rx="14.625" ry="9" fill="white" />
+            </svg>
+          </li>
+          <li class="logoname li-first">Devias Kit</li>
+          <li class="free li-first"><button>FREE</button></li>
+        </div>
+        <div>
+          <li class="li-last">
+            <a href=""><i class="lol fas fa-backspace"></i></a>
+          </li>
+          <li class="li-last">
+            <a href=""><i class="lol far fa-bell"></i></a>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <!-- Side navigation -->
+
+    <div class="sidenav">
+      <div>
+        <div>
+          <img src="images/oval-b.png" alt="" />
+          <h3>Roman Kutepov</h3>
+          <p>Brain Director</p>
+        </div>
+        <hr />
+        <div class="side-url">
+          <a href="#">
+            <i><img src="images/ione.png" alt="" /></i> Dashboard</a
+          >
+          <a href="#"
+            ><i><img src="images/ithree.png" alt="" /></i>Users</a
+          >
+          <a href="#"
+            ><i><img src="images/itwo.png" alt="" /></i>Products</a
+          >
+          <a href="#"
+            ><i><img src="images/ifour.png" alt="" /></i>Authentication</a
+          >
+          <a href="#"
+            ><i><img src="images/ifive.png" alt="" /></i> Typography</a
+          >
+          <a href="#"
+            ><i><img src="images/isix.png" alt="" /></i>Icons & Images</a
+          >
+        </div>
+        <div class="side-url">
+          <hr />
+
+          <a href="#"
+            ><i><img src="images/iseven.png" alt="" /></i>Support</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="main">
+      <div class="topnav">
+        <button href="#">Profile</button>
+        <button href="#">Account</button>
+        <button href="#">Price Plan</button>
+      </div>
+      <!-- Body part of the content -->
+
+      <div class="body-section">
+        <div>
+          <div class="section-profile">
+            <div class="section-first">
+              <div>
+                <h2>Adrian Stefan</h2>
+                <p>Rm. Valcea, Romania</p>
+                <p>4:32PM (GMT-4)</p>
+              </div>
+              <div>
+                <img src="images/sectionprofile.png" alt="profile pciture" />
+              </div>
+            </div>
+            <div class="section-second">
+              <div><button>UPLOAD PICTURE</button></div>
+              <div><button>REMOVE PICTURE</button></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="section-box">
+            <div class="section-box-header">
+              <h4 style="display: inline-block">Basic Profile</h4>
+              <span> The information can be edited from your profile page</span>
+            </div>
+            <div class="section-box-body">
+              <form class="information" action="submit">
+                <div class="flex-row mb-10">
+                  <label class="input-label-group">
+                    <input class="input-box-new" type="text" value="First Name" />
+                    <span class="input-info" for="">Please specify the first name</span>
+                  </label>
+
+                  <label class="input-label-group">
+                    <input class="input-box-new" type="text" value="last Name" />
+                    <span class="input-info" for="">Assertive text</span>
+                  </label>
+                </div>
+                <div class="flex-row mb-10">
+                  <label class="input-label-group">
+                    <input class="input-box-new" type="email" value="adrian_shp@yahoo.com" />
+                  </label>
+
+                  <label class="input-label-group">
+                    <input class="input-box-new" type="number" value="0752549328" />
+                  </label>
+                </div>
+                <div class="flex-row mb-10">
+                  <label class="input-label-group">
+                    <input class="input-box-new" type="text" value="Romania" />
+                  </label>
+
+                  <label class="input-label-group">
+                    <input class="input-box-new" type="text" value="Ramnicu Valcea" />
+                  </label>
+                </div>
+              </form>
+            </div>
+            <div class="section-box-footer">
+              <input class="last-button" type="button" value="SAVE SETTINGS" />
+            </div>
+          </div>
+
+          <div class="section-box">
+            <div class="section-box-header">
+              <h4 style="display: inline-block">Notification</h4>
+              <span> Manage the notifications emailing</span>
+            </div>
+            <div class="section-box-body">
+              <form class="updates" action="submit">
+                <div class="updates-left">
+                  <div class="row-header">Notification</div>
+                  <div class="checkbox-group">
+                    <label class="input-checkbox">
+                      <input type="checkbox" value="First Name" />
+                      <span>Email</span>
+                    </label>
+                  </div>
+                  <div class="checkbox-group">
+                    <label class="input-checkbox">
+                      <input type="checkbox" value="last Name" />
+                      <span>Push Notification</span>
+                    </label>
+                  </div>
+                  <div class="checkbox-group">
+                    <label class="input-checkbox">
+                      <input type="checkbox" value="First Name" />
+                      <span>Text Messages</span>
+                    </label>
+                  </div>
+                  <div class="checkbox-group">
+                    <label class="input-checkbox">
+                      <input type="checkbox" value="last Name" />
+                      <span>Phone Calls</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="updates-right">
+                  <div class="row-header">Messages</div>
+                  <div class="checkbox-group">
+                    <label class="input-checkbox">
+                      <input type="checkbox" value="First Name" />
+                      <span>Email</span>
+                    </label>
+                  </div>
+                  <div class="checkbox-group">
+                    <label class="input-checkbox">
+                      <input type="checkbox" value="last Name" />
+                      <span>Push Notification</span>
+                    </label>
+                  </div>
+                  <div class="checkbox-group">
+                    <label class="input-checkbox">
+                      <input type="checkbox" value="last Name" />
+                      <span>Text Messages</span>
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="section-box-footer">
+              <input class="small-button" type="button" value="SAVE " />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
