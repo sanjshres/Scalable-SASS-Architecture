@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" /> -->
+    <script src="https://kit.fontawesome.com/24dacea17b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="todo-box">
+      <div class="todo-header">
+        <div class="header-top">
+          <div><i class="fas fa-check-square"></i></div>
+          <div class="header-title">My Todo-s</div>
+        </div>
+        <div class="header-form">
+          <form action="">
+            <input class="add-bar" type="text" placeholder="Add new.." />
+            <button class="add-button" type="submit">Add</button>
+          </form>
+        </div>
+      </div>
+      <div class="todo-body">
+        <div class="todo-option">
+          <div class="filter-select">
+            <span>Filter</span>
+            <select name="Sanjay" id="">
+              <option value="">All</option>
+              <option value="">Complete</option>
+              <option value="">Active</option>
+              <option value="">Has due date</option>
+            </select>
+          </div>
+          <div class="filter-select">
+            <span> Sort</span>
+            <select name="Sanjay" id="">
+              <option value="">Added date</option>
+              <option value="">Due date</option>
+            </select>
+            <i class="fas fa-sort-amount-down-alt down-icon"></i>
+          </div>
+        </div>
+        <div class="todo-checklist">
+          <div class="checklist-row">
+            <div class="checklist-left">
+              <input type="checkbox" />
+              <label for="">Buy groceries for next week</label>
+            </div>
+            <div class="checklist-right">
+              <div class="checklist-icons">
+                <div class="first-icon">
+                  <i class="fas fa-pencil-alt"></i>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Edit todo</span>
+                  </div>
+                </div>
+                <div class="first-icon">
+                  <i class="far fa-trash-alt second-icon"></i>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Delete todo</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="checklist-icons">
+                <div class="first-icon">
+                  <i class="fas fa-info-circle third-icon"></i>
+                  <span class="third-text"> 28th Jun 2020</span>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Created Date</span>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="check-list-right-bottom"> 
+                        <div class="checklist-icons">
+                         <div class="first-icon third-icon"><i class="fas fa-info-circle"></i>
+                          <span> 28th Jun 2020</span>
+                            <div class="icon-dropdown">
+                                <span>Edit todo</span>
+                            </div>
+                        </div>
+                     </div>
+                     </div> -->
+            </div>
+          </div>
+
+          <div class="checklist-row">
+            <div class="checklist-left">
+              <input type="checkbox" />
+              <label for="">Renew car insurance</label>
+            </div>
+            <div class="checklist-right">
+              <div class="checklist-icons">
+                <div class="first-icon">
+                  <i class="fas fa-pencil-alt"></i>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Edit todo</span>
+                  </div>
+                </div>
+                <div class="first-icon">
+                  <i class="far fa-trash-alt second-icon"></i>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Delete todo</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="checklist-icons">
+                <div class="first-icon">
+                  <i class="fas fa-info-circle third-icon"></i>
+                  <span class="third-text"> 28th Jun 2020</span>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Created Date</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="checklist-row">
+            <div class="checklist-left">
+              <input type="checkbox" />
+              <input class="checklist-input" type="text" />
+            </div>
+            <div class="checklist-right">
+              <div class="checklist-icons">
+                <div class="first-icon">
+                  <i class="fas fa-pencil-alt"></i>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Edit todo</span>
+                  </div>
+                </div>
+                <div class="first-icon">
+                  <i class="far fa-trash-alt second-icon"></i>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Delete todo</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="checklist-icons">
+                <div class="first-icon">
+                  <i class="fas fa-info-circle third-icon"></i>
+                  <span class="third-text"> 28th Jun 2020</span>
+                  <div class="icon-dropdown">
+                    <span class="icon-hover-text">Created Date</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
